@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+html,body{
+  margin: 0;
+ width: 100%;
+  padding: 0;
+  height: 100%;
+}
+
+/* ---Global Styles -- */
+*{
+  box-sizing: border-box;
+  font-family: 'Noto Serif', serif;
+}
+/* ---End of Global Styles --*/
+
+
+
+/*  ----Header Section ----*/
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  background:  #f2f2f2;
+  margin: 0 auto;
+  position: fixed;
+}
+
+.headerh1{
+  padding-bottom: 15px;
+  padding-right: 20px;
+  color: black;
+  text-shadow: 2px 3px 3px rgba(0,0,0,0.3);
+}
+
+
+
+/* Navigation inside Header */
+.topnav {
+  background-color: #f2f2f2;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Noto Serif' , serif;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add an active class to highlight the current page */
+.active {
+    background-color: #f2f2f2;
+    color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+} 
+/* ----End of Header Section ---- */
+
+
+/*  --showcase section-- */
+.wrapper{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 35px;
+  padding-top: 100px;
+  max-width: 100%;
+  min-height: 320px;
+  height: 700px;
+}
+.bg-image{
+  background-image: url("logo2.jpg");
+  justify-content: center;
+  background-size: cover;
+  background-size: no-repeat;
+  background-position: center;
+  max-width: 100%;
+  background-size: cover;
+  margin: 0 auto;
+  padding-top: 25px;
+  width: 80%;  
+  height: 500px;
+}
+/* --- End of Showcase Section -- */
+
+
+/* --- Second Section ---- */
+.wrapper1{
+  display: flex;
+  flex-direction: column;
+  background-image: url(https://images.pexels.com/photos/69121/passenger-traffic-airline-aviation-air-transportation-69121.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 );  
+  overflow: auto;
+  background-size: cover;
+  background-size: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 750px;
+}
+  
+
+/*---- Inside wrapper classes h1 and p tags ---- */
+.contentbox{
+  color: white;
+  width: 100%;
+  line-height: 2.0;
+  height: 300px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 100px;
+  margin-bottom: 50px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.serviceh1, .h2content{
+  padding-left: 40px;
+  font-size: 3rem;
+  padding-top: 25px;
+  font-weight: 900;
+}
+
+p{
+  font-size: 2.5em;
+  padding-bottom: 100px;
+  margin-bottom: 25px;
+  
+  font-weight: bold;
+}
+/* ---End of Second Section ---*/
+
+
+/*  --THIRD SECTION ---*/
+.wrapper2{
+  display: flex;
+  height: 700px;
+  width: 100%;
+  flex-wrap: wrap;
+  
+
+}
+
+.contentbox2{
+  font-weight: 800;
+  width: 100%;
+  line-height: 2.0;
+  background: lightblue;
+  height: 100%;
+  color: black;
+  padding-bottom: 100px;
+  margin-bottom: 50px;
+  font-family: 'Roboto', sans-serif;
+}
+.content_title, .p_content{
+  font-size: 18px;
+  background:  #ffcccc;
+  color: blue;
+  margin: auto;
+  text-align: center;
+  width: 85%;
+  padding: 20px 20px 15px 15px;
+}
+.img1 {
+  width: 50%;
+  height: 50%;
+  display: block;
+  margin: auto;
+  padding-top: 25px;
+  margin-bottom: 25px;
+}
+
+.img_div{
+  height: 800px;
+  width: 85%;
+  background:  #ffcccc;
+  margin-left: 100px;
+ 
+}
+
+/* ---FOOTER SECTION ---*/
+.footer{
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 700px;
+  align-items: center;
+  justify-content: center;
+  background: black;
+}
+.straightline{ /* <-----Top black line */ 
+  width: 100%;
+  height: 100px;
+  background: black;
+  position: absolute;
+  align-self: flex-start;
+}
+.blueline{
+  width: 100%;
+  height: 10px;
+  background: blue;
+}
+.box{
+  flex-wrap: wrap;
+  padding-top: 60px;
+  width: 100%;
+  position: absolute;
+  background: red;
+  height: 60%;
+  padding-left: 40px;
+  color: white;
+  }
+
+
+.box_p{
+  line-height: 2.0;
+  flex-wrap: wrap;
+  font-size: 28px;
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+}
+
+.boxy{
+  position: absolute;
+  background: yellow;
+  width: 30%; 
+  height: 80%;
+  margin-left: 300px;
+  padding: 15px 20px 0 15px;
+ }
+.contact, .email, .socialmedia, li{
+  padding-top: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin: 0 auto;
+  text-align: center;
+  list-style: none;
+  font-family: 'Roboto', sans-serif;
+  color: green;
+}
+li{
+  font-size: 18px;
+
+}
+/* ---End OF FOOTER SECTION --- */
+
+
+/* ---Back to Top Section --*/
+.underline{
+  width: 100%;
+  height: 75px;
+  background: blue;
+  position: absolute;
+  align-self: flex-start;
+}
+
+.backtotop{
+  font-size: 25px;
+  font-weight: bold;
+  padding-top: 25px;
+  margin: 0 auto;
+  text-align: center;
+}
+a{ 
+  color: white; 
+}
+
+
+
+/* making sure media query works
+@media(min-width: 700px) {
+  body {display: none;} 
+} */
+
+ /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .topnav.responsive {
+    position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+} 
+
+@media screen and (max-width: 800px) {
+
+/* ---Header Section --- */
+.header{
+  position: static;
+} 
+
+
+/* --ShowCase Section hidden -- */
+.wrapper{
+    display: none;
+}
+/* End Showcase section */
+
+
+
+
+.wrapper1{
+  height: 500px;
+  width: 100%;
+}
+
+
+.contentbox {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 14px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0 25px;
+    
+  }
+
+  .h2content, .serviceh1{
+    display: none;
+  }
+
+
+
+
+
+
+/* ---Footer Section --*/
+.footer{
+  display: none;
+}
+
+}
